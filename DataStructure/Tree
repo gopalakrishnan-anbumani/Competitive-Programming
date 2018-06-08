@@ -1,0 +1,17 @@
+Find Height Of the Tree:
+
+Height(Tree)
+{
+	if tree == null
+		return 0
+	return 1 + Max (Height(tree.left),Height(tree.right));
+}
+
+Find Size Of the Tree:
+
+Size(Tree)
+{
+	if tree == null
+		return 0
+	return 1 + Size(tree.left) + Size(tree.right);
+}
