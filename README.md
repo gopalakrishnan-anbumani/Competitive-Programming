@@ -13,3 +13,7 @@ https://medium.com/@connorleech/depth-first-and-breadth-first-search-on-trees-in
 video course:
 https://www.class-central.com/course/coursera-greedy-algorithms-minimum-spanning-trees-and-dynamic-programming-7350
 https://www.coursera.org/learn/data-structures
+
+
+# Java String
+http://www.java67.com/2018/06/top-35-java-string-interview-questions.html?m=1
