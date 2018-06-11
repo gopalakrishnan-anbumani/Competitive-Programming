@@ -1,7 +1,8 @@
 # Competitive-Programming
 Solution and Links for the Competitive Programmings, Data Sturucture and Algorithms, Problems,
 # Time Complexity 
-“A coffee-break introduction to time complexity of algorithms” @hivickylai https://medium.freecodecamp.org/a-coffee-break-introduction-to-time-complexity-of-algorithms-64df7dd8338e
+coffee-break introduction to time complexity of algorithms
+https://medium.freecodecamp.org/a-coffee-break-introduction-to-time-complexity-of-algorithms-64df7dd8338e
 
 # Tree
 
