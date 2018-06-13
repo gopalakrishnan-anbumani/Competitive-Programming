@@ -4,6 +4,9 @@ Solution and Links for the Competitive Programmings, Data Sturucture and Algorit
 coffee-break introduction to time complexity of algorithms
 https://medium.freecodecamp.org/a-coffee-break-introduction-to-time-complexity-of-algorithms-64df7dd8338e
 
+# Data Structure
+https://medium.com/swlh/introduction-to-data-structures-9134b7d064a6
+
 # Tree
 
 http://www.cs.yale.edu/homes/aspnes/pinewiki/DepthFirstSearch.html
