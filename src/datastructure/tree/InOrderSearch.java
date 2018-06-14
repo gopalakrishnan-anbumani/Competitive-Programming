@@ -13,6 +13,10 @@ public class InOrderSearch {
 		root.right.left = new Node(6);
 		root.right.right = new Node(7);
 		BFSInorderSearch(root);
+		System.out.println();
+		BFSPreorderSearch(root);
+		System.out.println();
+		BFSPostorderSearch(root);
 	}
 	
 	public static void BFSInorderSearch(Node node){
@@ -22,6 +26,22 @@ public class InOrderSearch {
 			BFSInorderSearch(node.right);
 		}
 		
+	}
+	public static void BFSPreorderSearch(Node node){
+		if(node!=null){
+			System.out.print(node.data+" ");
+			BFSPreorderSearch(node.left);
+			BFSPreorderSearch(node.right);
+		}
+	}
+	
+	public static void BFSPostorderSearch(Node node){
+		System.out.print("");
+		if(node!=null){
+			BFSPostorderSearch(node.left);
+			BFSPostorderSearch(node.right);
+			System.out.print(node.data+" ");
+		}
 	}
 	
 	static class Node{
