@@ -12,11 +12,15 @@ public class InOrderSearch {
 		root.left.right = new Node(5);
 		root.right.left = new Node(6);
 		root.right.right = new Node(7);
-		BFSInorderSearch(root);
+		
+		//BFSInorderSearch(root);
 		System.out.println();
-		BFSPreorderSearch(root);
+		//BFSPreorderSearch(root);
 		System.out.println();
-		BFSPostorderSearch(root);
+		//BFSPostorderSearch(root);
+		
+		System.out.println(heightOftheTree(root));
+		System.out.println(sizeOfTheTree(root));
 	}
 	
 	public static void BFSInorderSearch(Node node){
@@ -44,6 +48,16 @@ public class InOrderSearch {
 		}
 	}
 	
+	public static int heightOftheTree(Node node){
+		if(node==null) return 0;
+		
+		return 1 + Math.max(heightOftheTree(node.left), heightOftheTree(node.right));
+	}
+	
+	public static int sizeOfTheTree(Node node){
+		if(node==null) return 0;
+		return 1 + sizeOfTheTree(node.left)+sizeOfTheTree(node.right);
+	}
 	static class Node{
 		int data;
 		Node left,right;
