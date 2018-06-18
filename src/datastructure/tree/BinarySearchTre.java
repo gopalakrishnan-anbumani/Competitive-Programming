@@ -17,36 +17,54 @@ public class BinarySearchTre {
 	 * 
 	 * @param data
 	 */
-	public void addNode(int data){
-		
-		BinarySearchTre current = this;
-		System.out.println("In -> : "+current.data);
-		
-		if(current.data > data){
-			if(current.left == null){
-				current.left = new BinarySearchTre(data);
+	public void addNode(int value){
+		if(data > value){
+			if(left == null){
+				left = new BinarySearchTre(value);
 			}else{
-				current.left.addNode(data);
+				left.addNode(value);
 			}
-		}else if(current.data < data){
-			if(current.right == null){
-				current.right = new BinarySearchTre(data);
+		}else {
+			if(right == null){
+				right = new BinarySearchTre(value);
 			}else{
-				current.right.addNode(data);
+				right.addNode(value);
 			}
 		}
 	}
+	
+	public boolean contains(int value){
+		if(data == value){
+			return true;
+		}
+		else if(data > value){
+			if(left==null){
+				return false;
+			}else{
+				return left.contains(value);
+			}
+		}else{
+			if(right==null){
+				return false;
+			}else{
+				return right.contains(value);
+			}
+		}
+	}
+	
 	/**
 	 * Main Method
 	 */
 	public static void main(String[] args){
 		BinarySearchTre tree = new BinarySearchTre(20);
 		tree.addNode(10);
-		tree.addNode(5);
 		tree.addNode(25);
-		tree.addNode(8);
-		tree.addNode(10);
-		preOrderTraversal(tree);
+		tree.addNode(4);
+		tree.addNode(5);
+		tree.addNode(6);
+		//preOrderTraversal(tree);
+		System.out.println(tree.contains(40));
+		
 	}
 	public static void preOrderTraversal(BinarySearchTre node){
 		if(node==null) return;
