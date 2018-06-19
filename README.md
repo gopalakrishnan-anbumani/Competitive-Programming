@@ -19,6 +19,22 @@ https://www.class-central.com/course/coursera-greedy-algorithms-minimum-spanning
 https://www.coursera.org/learn/data-structures
 MIT Youtube Videos : https://www.youtube.com/channel/UCEBb1b_L6zDS3xTUrIALZOw
 
+# Binary Tree:
+
+	1.Insert -> Done
+	2.Delete node: -> TODO
+		a. With no children
+		b. with 1 children
+		c. with 2 children
+	3. Find -> Done
+	4. Search -> Done
+		a. Inorder
+		b. PreOrder
+		c. PostOrder
+	5. Get Height -> Done
+	6. Get Size -> Done
+	
+
 
 # Java String
 http://www.java67.com/2018/06/top-35-java-string-interview-questions.html?m=1
