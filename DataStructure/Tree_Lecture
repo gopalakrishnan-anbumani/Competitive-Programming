@@ -15,3 +15,29 @@ Size(Tree)
 		return 0
 	return 1 + Size(tree.left) + Size(tree.right);
 }
+
+
+Binary Heap Tree:
+
+It'll statify the condition of the parent node value is always greter than it's childeren.
+
+Get Max : O(1) -> Get the root value
+Remove : O (log n) -> Mark Infity to value which have to remove. It'll violate the Bianry Heap condition.
+	So Shift Up to root. Now replace this with leaf node. Again It'll violate the condition so using Shift down.
+
+Complete Binary Tree:
+	A Binary Tree is complete if all it's level are filled except possibly the last one which is filled from Left to Right
+
+	Advantage: 
+			1.A Complete Binary tree with n nodes have height at most O(log n)
+			2. Store As an Array : we can Store the value of the tree in array.
+					
+					Parent(i) ->   i/2
+					Left Child->   2i
+					right Child -> 2i+1 
+	Steps to Keep Complete Binary Tree:
+			To insert an element , insert the element as a  leaf in the left most vacant position 
+			in the last level and shift up.
+	
+
+
