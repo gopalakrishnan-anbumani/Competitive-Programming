@@ -52,6 +52,12 @@ public class BinarySearchTre {
 		}
 	}
 	
+	public void deleteNode(int value){
+		if(data > value){
+			
+		}
+	}
+	
 	/**
 	 * Main Method
 	 */

@@ -36,5 +36,14 @@ MIT Youtube Videos : https://www.youtube.com/channel/UCEBb1b_L6zDS3xTUrIALZOw
 	
 
 
-# Java String
+# Java
+http://snowdream.github.io/115-Java-Interview-Questions-and-Answers/115-Java-Interview-Questions-and-Answers/en/index.html
+http://www.in28minutes.com/ 
+https://orrsella.gitbooks.io/soft-eng-interview-prep/content/
+https://github.com/andreis/interview
+
+# String
 http://www.java67.com/2018/06/top-35-java-string-interview-questions.html?m=1
+
+
+
