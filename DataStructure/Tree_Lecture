@@ -39,5 +39,7 @@ Complete Binary Tree:
 			To insert an element , insert the element as a  leaf in the left most vacant position 
 			in the last level and shift up.
 	
+Full Binary Tree:
+	Full Bianry Tree is a binary tree each node has either a leaf node or possesses exactly 2 child node. 
 
 
