@@ -23,7 +23,7 @@ MIT Youtube Videos : https://www.youtube.com/channel/UCEBb1b_L6zDS3xTUrIALZOw
 # Binary Tree:
 
 	1.Insert -> Done
-	2.Delete node: -> TODO
+	2.Delete node: -> Done
 		a. With no children
 		b. with 1 children
 		c. with 2 children
@@ -32,6 +32,7 @@ MIT Youtube Videos : https://www.youtube.com/channel/UCEBb1b_L6zDS3xTUrIALZOw
 		a. Inorder
 		b. PreOrder
 		c. PostOrder
+		d. Level Order Search - BFS
 	5. Get Height -> Done
 	6. Get Size -> Done
 	
