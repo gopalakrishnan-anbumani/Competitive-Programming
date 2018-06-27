@@ -16,7 +16,18 @@ Size(Tree)
 	return 1 + Size(tree.left) + Size(tree.right);
 }
 
-
+Heap Tree:
+  1.Binary Max heap
+  1.Binary Min heap
+  
+  Heap tree is normally complete Binary Tree. Add a node at last and check. 
+  
+  Todo:
+       Add Node
+       Get Max
+       Remove any number
+       Remove the Top
+  
 Binary Heap Tree:
 
 It'll statify the condition of the parent node value is always greter than it's childeren.
