@@ -36,6 +36,9 @@ MIT Youtube Videos : https://www.youtube.com/channel/UCEBb1b_L6zDS3xTUrIALZOw
 	5. Get Height -> Done
 	6. Get Size -> Done
 	
+	a. Binary Min Heap
+		1.Add Node -> Done
+		2.Extract Min -> TO DO 
 
 
 # Java
