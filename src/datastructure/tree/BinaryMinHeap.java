@@ -46,6 +46,48 @@ public class BinaryMinHeap {
 			parent = newElement/2;
 		}
 	}
+	//==========================================
+	//Shift Down
+	//==========================================
+	/**
+	 * Method to Maintain Heapify after Delete Root
+	 */
+	public void shiftDown(){
+		int point = 1;
+		int left = (2*point);
+		int right = (2*point)+1;
+		while(left<=currentNode || right <= currentNode){
+			if(right > currentNode){
+				if(array[point] > array[left]){
+					int temp = array[left];
+					array[left] = array[point];
+					array[point] = temp;
+				}
+				System.out.println("break1");
+				break;
+			}else{
+				if(array[point] > array[left]){
+					if(array[left] <= array[right]){
+						int temp = array[left];
+						array[left] = array[point];
+						array[point] = temp;
+						point = left;
+					}else{
+						int temp = array[right];
+						array[right] = array[point];
+						array[point] = temp;
+						point = right;
+					}
+				}else{
+					System.out.println("break2");
+					break;
+				}
+				left = (2*point);
+				right = (2*point)+1;
+			}
+		}
+		
+	}
 	
 	public void printArr(int[] arr){
 		for(int a : arr)
@@ -64,6 +106,14 @@ public class BinaryMinHeap {
 		binaryMinHeap.addNode(8);
 		binaryMinHeap.addNode(5);
 		
+		binaryMinHeap.printArr(binaryMinHeap.array);
+		
+		binaryMinHeap.array[1] = 10;
+		System.out.println();
+		binaryMinHeap.printArr(binaryMinHeap.array);
+		
+		binaryMinHeap.shiftDown();
+		System.out.println();
 		binaryMinHeap.printArr(binaryMinHeap.array);
 	}
 }
