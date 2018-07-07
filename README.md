@@ -6,6 +6,8 @@ https://medium.freecodecamp.org/a-coffee-break-introduction-to-time-complexity-o
 
 # Dynamic Programming 
 “Dynamic Programming vs Divide-and-Conquer” https://itnext.io/dynamic-programming-vs-divide-and-conquer-2fea680becbe
+https://www.cdn.geeksforgeeks.org/trapping-rain-water/
+
 
 # Data Structure
 https://medium.com/swlh/introduction-to-data-structures-9134b7d064a6
