@@ -4,6 +4,11 @@ Solution and Links for the Competitive Programmings, Data Sturucture and Algorit
 coffee-break introduction to time complexity of algorithms
 https://medium.freecodecamp.org/a-coffee-break-introduction-to-time-complexity-of-algorithms-64df7dd8338e
 
+# Dynamic Programming 
+“Dynamic Programming vs Divide-and-Conquer” https://itnext.io/dynamic-programming-vs-divide-and-conquer-2fea680becbe
+https://www.cdn.geeksforgeeks.org/trapping-rain-water/
+
+
 # Data Structure
 https://medium.com/swlh/introduction-to-data-structures-9134b7d064a6
 http://www.java67.com/2018/06/data-structure-and-algorithm-interview-questions-programmers.html?m=1
