@@ -1,0 +1,33 @@
+
+# JVM - (18-07-2018)
+
+	JRE is a part of JDK. JVM is a part of JRE. (JDK->JRE->JVM)
+	JRE -> JVM, Platform Core Classes, Supporting Libararies
+
+	WORA
+	When we Compile .java file, .class with same file name created by the Compiler.
+
+	1. Class Loaded Subsystem
+	
+		Dynamic Class Loading(Class.forname()) is handled by Class Loader Subsystem.
+	
+	   a. Loading
+	   b.Linking
+	   c.Initialization
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+References :
+	
+https://www.geeksforgeeks.org/jvm-works-jvm-architecture/
+
+	
