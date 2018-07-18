@@ -5,7 +5,7 @@ coffee-break introduction to time complexity of algorithms
 https://medium.freecodecamp.org/a-coffee-break-introduction-to-time-complexity-of-algorithms-64df7dd8338e
 
 # Dynamic Programming 
-“Dynamic Programming vs Divide-and-Conquer” https://itnext.io/dynamic-programming-vs-divide-and-conquer-2fea680becbe
+â€œDynamic Programming vs Divide-and-Conquerâ€� https://itnext.io/dynamic-programming-vs-divide-and-conquer-2fea680becbe
 https://www.cdn.geeksforgeeks.org/trapping-rain-water/
 
 
@@ -51,6 +51,10 @@ http://snowdream.github.io/115-Java-Interview-Questions-and-Answers/115-Java-Int
 http://www.in28minutes.com/ 
 https://orrsella.gitbooks.io/soft-eng-interview-prep/content/
 https://github.com/andreis/interview
+
+# Java Interview
+
+https://www.java-success.com/?gclid=CjwKCAjwyrvaBRACEiwAcyuzRMq0fRwMcw1XSpHx0sC8OJfqllG-OiYOJ51X9UJvw8bhEE9eHQwPuBoC20QQAvD_BwE
 
 # String
 http://www.java67.com/2018/06/top-35-java-string-interview-questions.html?m=1
