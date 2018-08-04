@@ -60,4 +60,8 @@ https://www.java-success.com/?gclid=CjwKCAjwyrvaBRACEiwAcyuzRMq0fRwMcw1XSpHx0sC8
 http://www.java67.com/2018/06/top-35-java-string-interview-questions.html?m=1
 
 
+Websites 
 
+Bigger Leaner Stronger: The Simple Science of Building the Ultimate Male Body (The Muscle for Life Series Book 1)
+
+Imagekit.io this is for resizing images fo sites
