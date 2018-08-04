@@ -65,3 +65,8 @@ Websites
 Bigger Leaner Stronger: The Simple Science of Building the Ultimate Male Body (The Muscle for Life Series Book 1)
 
 Imagekit.io this is for resizing images fo sites
+https://deanhume.com/lazy-loading-images-using-intersection-observer/
+
+http://jquery.eisbehr.de/lazy/
+
+
