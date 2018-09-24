@@ -4,7 +4,7 @@
 
 # 1. Inversion of Control
  
-   		it helps in creating more loosely coupled applications. Ioc represents the Inveriosn of application object creation, Initialization, and destruction fromthe appliction to the third party such as Framework.Now 3rd party take care of object management and dependeancies. So it's making application easy to maintain, test, and run.
+   		it helps in creating more loosely coupled applications. Ioc represents the Inveriosn of application object creation, Initialization, and destruction from the appliction to the third party such as Framework.Now 3rd party take care of object management and dependeancies. So it's making application easy to maintain, test, and run.
  		
  		Many approches to implement the IOC, Spring provides DI (Dependency Injection)
  		
@@ -29,6 +29,8 @@
   			a. Bean Factory
   			b. Application Context
   		Application Logic is provided through POJO classes.Config Metadata consist of bean deifinitions. Ioc Container produces objects using Pojo classes and Config Metadata.
+  		
+  		The **org.springframework.beans** and **org.springframework.context** packages provide the basis for the Spring Framework’s IoC container.
   		
   		**Bean Factory:** *It's a basic container available in Spring*
   		**Application Context:** *It's a special type of bean factory it has additional functionalities to support enterprise application development*
