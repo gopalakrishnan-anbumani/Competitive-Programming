@@ -49,5 +49,26 @@ We can inject dependent object using construtor-arg tag with "ref" attribute.For
 		
 		<bean id="student1" class="sample.spring.beans.Student"> </bean>
 
+## Setter Injection
+
+In Setter Injection Spring Container invokes setter method of a class to initialize the properties after invokes default constructor. 
+
+**property** tag used for setter injection
+
+		<bean id="bean" class="com.java.demo.bean" >
+			<property name="age" value="23" />
+		</bean>
+
+Spring internally invokes the default constructor to crean bean and then invokes the respective property based on name attribute to initialize the values.
+
+We can inject object dependent using property tag with **ref** attribute.
+
+## Spring Collections
+
+.<list> helps to inject list of values allowing duplicates
+.<set>  helps to inject list of values wihtout duplicates
+.<map> key value pair where key and value any Type
+.<props> key value pair where key and value are String
+
 
 
