@@ -1,3 +1,5 @@
+This Repository for daily update of What I am Learning related to Programming.
+
 # Competitive-Programming
 Solution and Links for the Competitive Programmings, Data Sturucture and Algorithms, Problems,
 # Time Complexity 
