@@ -59,6 +59,11 @@ https://github.com/andreis/interview
 
 https://www.java-success.com/?gclid=CjwKCAjwyrvaBRACEiwAcyuzRMq0fRwMcw1XSpHx0sC8OJfqllG-OiYOJ51X9UJvw8bhEE9eHQwPuBoC20QQAvD_BwE
 
+
+# System Design
+
+https://sourcemaking.com/design_patterns/object_pool
+
 # String
 http://www.java67.com/2018/06/top-35-java-string-interview-questions.html?m=1
 
