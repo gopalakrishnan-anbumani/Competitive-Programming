@@ -69,6 +69,7 @@ http://www.java67.com/2018/06/top-35-java-string-interview-questions.html?m=1
 
 # Maths
 https://www-cs-faculty.stanford.edu/~knuth/taocp.html
+https://projecteuler.net/index.php?section=problems
 
 
 
