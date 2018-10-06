@@ -59,6 +59,10 @@ https://github.com/andreis/interview
 
 https://www.java-success.com/?gclid=CjwKCAjwyrvaBRACEiwAcyuzRMq0fRwMcw1XSpHx0sC8OJfqllG-OiYOJ51X9UJvw8bhEE9eHQwPuBoC20QQAvD_BwE
 
+# Maths
+Modular Arithmetic 
+Modular Exponential 
+
 
 # System Design
 
