@@ -17,6 +17,37 @@
 	   b.Linking
 	   c.Initialization
 	
+# From L** (10-11-2018)
+
+	Java SE -> Core Application
+	Java EE -> Libraries for build Distributed Application
+	
+	Java SE is actually a JDK that comprises of:
+		@ Development Tools
+		@ JRE
+	
+	Development tools include Java Complier (javac.exe) and Java Interpreter (java.exe). These Tools are required to prepare
+a Java Application for execution.
+
+	JRE comprises of Std Libraries and Other files required by JVM for executing Java application. JVM is actual runtime in 
+	which a Java application executes.
+	
+	
+		----------------------------------------- 				----------------------------------------------------
+		-	Complier (javac.exe)				-				- Java Std 											-
+		-	Java application launcher (java.exe)-				- 							JVM						-
+		-										-				- RunTime Libs										-
+		-----------------------------------------				-----------------------------------------------------
+		 		# Development Tools													JRE
+		 		
+		 											JDK
+		 											
+	Java Development Tools javac and java are available in bin folder
+		 					
+		 						
+	
+	
+	
 	
 	
 	

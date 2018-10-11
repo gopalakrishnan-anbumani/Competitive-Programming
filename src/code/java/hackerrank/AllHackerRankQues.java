@@ -9,6 +9,7 @@ public class AllHackerRankQues {
 		if(game[1]==1 && game[leap] == 1){
 			return false;
 		}
+		game[0]=1;
 		if(game[1]==0){
 			if (game[leap]==0){
 				return (recur(1, leap, game) || recur(leap, leap, game));
@@ -25,8 +26,9 @@ public class AllHackerRankQues {
 		if(pos >= game.length || pos == game.length-1 || pos+leap >= game.length){
 			return true;
 		}
+		game[pos]=1;
 		if(pos >= 0){
-			if(pos == 0){
+			if(game[pos] == 0){
 				if(game[pos+1] == 0 && game[pos+leap] == 0){
 					return (recur(pos+1, leap, game) || recur(pos+leap, leap, game));
 				}else if(game[pos+1] == 0){
@@ -40,12 +42,25 @@ public class AllHackerRankQues {
 				if(game[pos-1] == 0){
 					if(game[pos+1]==0){
 						if(game[pos+leap]==0){
-							return (recur(pos-1, leap, game) || recur(pos+1, leap, game) || recur(pos+leap, leap, game));
+							if(pos-1!=0){
+								return (recur(pos-1, leap, game) || recur(pos+1, leap, game) || recur(pos+leap, leap, game));	
+							}else{
+								return (recur(pos+1, leap, game) || recur(pos+leap, leap, game));
+							}
+							
 						}else{
-							return (recur(pos-1, leap, game) || recur(pos+1, leap, game));
+							if(pos-1!=0){
+								return (recur(pos-1, leap, game) || recur(pos+1, leap, game));	
+							}else{
+								return recur(pos+1, leap, game);
+							}
+							
 						}
 					}else {
-						return (recur(pos-1, leap, game));
+						if(pos-1!=0){
+							return (recur(pos-1, leap, game));	
+						}
+						
 					}
 				}else{
 					if(game[pos+1]==0){
@@ -63,9 +78,8 @@ public class AllHackerRankQues {
 					}
 				}
 			}
-		}else {
-			return false;
 		}
+		return false;
 	}
 
     public static void main(String[] args) {
