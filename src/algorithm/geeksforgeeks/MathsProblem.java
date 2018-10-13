@@ -18,8 +18,9 @@ public class MathsProblem {
 		
 	 * https://practice.geeksforgeeks.org/problems/print-the-pattern-set-1/1
 	 * status -> Completed	
-	 * @param n
+	 * @param n	
 	 */
+	
 	static void printPat()
     {
         Scanner scanner = new Scanner(System.in);
@@ -48,6 +49,5 @@ public class MathsProblem {
         
         scanner.close();
     }
-
-
+	
 }

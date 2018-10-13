@@ -82,7 +82,7 @@ public class AllHackerRankQues {
 		return false;
 	}
 
-    public static void main(String[] args) {
+    private static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int q = scan.nextInt();
         while (q-- > 0) {
