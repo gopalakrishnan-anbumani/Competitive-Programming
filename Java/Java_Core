@@ -72,17 +72,39 @@ a Java Application for execution.
 		2. Static Variable/ Class Variable
 		3. Instance Variable
 	
+	Type Cast:
+		The variable of one Data Type receive variable of other. this is possible through implicit and explicit conversion.
+		Java is strongly typed language, where type checking is enforced at run time.This makes it impossible to convert incompatible types. 
 		
+		Two type of type conversion:
+			1. Widening Conversion 	/ 	implicit type conversion
+			2. Narrowing Conversion	/  	Explicit Type Conversion
+				
+				Smaller Data Type to Larger Data Type -> Widening Conversion happening, without any data loss.
+				
+				Larger Data type to Smaller Data Type -> Narrowing Type Conversion & Explicit type Conversion is happening, Data Loss Occur.
+			
+			Think Like Circle and Square
+			
+								Narrowing
+			<<<<---------<<<<<<<<<<-------<<<<<<<<<<<<-------<<<<<<<<<<<<-------------------------------------
+					Char
+					  ^
+					  |
+			Short -> int	-> 	long 	->	float	-> double
+			  ^
+			  |
+			Byte
+			
+			------->>>>>>>>>>>>------------------->>>>>>>>>>-------------->>>>>>----------->>>>>>>>>>>>>
+							Widening
 	
 	
 	
-	
-	
-	
-	
-	
-	
-	
+
+
+
+
 References :
 	
 https://www.geeksforgeeks.org/jvm-works-jvm-architecture/
