@@ -4,9 +4,18 @@
 
 # 1. Inversion of Control
  
-   		it helps in creating more loosely coupled applications. Ioc represents the Inveriosn of application object creation, Initialization, and destruction from the appliction to the third party such as Framework.Now 3rd party take care of object management and dependeancies. So it's making application easy to maintain, test, and run.
+   		it helps in creating more loosely coupled applications. Ioc represents the Inveriosn of application object creation, Initialization, and destruction from the application to the third party such as Framework.Now 3rd party take care of object management and dependancies. So it's making application easy to maintain, test, and run.
  		
  		Many approches to implement the IOC, Spring provides DI (Dependency Injection)
+ 		
+    Is it possible to make an application more loosely coupled ?
+Yes, this can be done by moving the application object life cycle management responsibility to the third party such as a framework. Inversion of control(IoC) is the approach used to achieve this, there are different implementations for IoC and Spring Framework provides IoC implementation using Dependency Injection(DI).
+	
+Spring's Dependency Injection features makes an application loosely coupled by moving object dependencies away from the application to the Spring container. Now the container manages objects and its dependencies allowing developer to focus more on application code.
+
+You will be learning Dependency Injection in detail through this course.
+
+Note: Inversion of Control (IoC) represents the inversion of application responsibility of object's creation, initialization, dependency and destruction from the application to the third party.
  		
 # Spring IOC 
 		Spring framework delegates the responsiblity of creating and maintaing the appliction object to a spring container using configuration metadata.
