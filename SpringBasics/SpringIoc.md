@@ -62,6 +62,14 @@ Note: Inversion of Control (IoC) represents the inversion of application respons
 		ApplicationContext context = new ClassPathXmlApplicationContext("config.xml");
 		Object object =  context.getBean("bean");
  		
+# Diff B/w Bean Factory & Application Context
+Internationalization
+Annotations
+EnterPrise Services
+Lazy Loading (Loading Bean Factory first & Instantiating bean during first Access using getBean() )
+Eager Loading (Loading Application Context & Instantiating Bean)
+ 		
+
 # Configuration Meta Data
 
 Definitions of the beans
