@@ -65,10 +65,10 @@ We can inject object dependent using property tag with **ref** attribute.
 
 ## Spring Collections
 
-.<list> helps to inject list of values allowing duplicates
-.<set>  helps to inject list of values wihtout duplicates
-.<map> key value pair where key and value any Type
-.<props> key value pair where key and value are String
+	<list> helps to inject list of values allowing duplicates
+	<set>  helps to inject list of values wihtout duplicates
+	<map> key value pair where key and value any Type
+	<props> key value pair where key and value are String
 
 
 
