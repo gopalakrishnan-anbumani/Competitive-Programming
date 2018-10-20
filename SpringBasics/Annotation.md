@@ -34,6 +34,34 @@ We can give **@Autowire(required=true)** which avoid runtime exception when requ
 
 Explicit dependencies in property & constructor-arg will always over ride autowiring.
 
+## Auto Scanning
+
+Annotations based config using Autowired reduced the size of XML config file by replacing the tag like <constuctor-arg> & <property> tag using @Autowired
+
+But Still the bean definition <bean> need to be defined.
+
+Auto Scanning helps to remove explicit bean definition using <bean> tag.
+
+Spring provides the way to automatically detect the beans to be injected and avoid the bean definition with in the spring configuration file through the AutoScanning
+
+In AutoScanning, Spring framework automatically scans, detect & instantiates the bean from the specified base package.
+
+Auto Scannig is switched on by <context:component-scan>
+
+<context:component-scan> also do what ever <context:annotation-config>
+
+Automatically detect the beans can be acheived by:
+
+	1. Use @Component annotation at POJO 
+	2. Add following line in Config File
+	<context:component-scan base-package = "packageName"/>
+ 
+Spring Container scans the base package (including sub-packages) to detect @Compomnent annotated classes and Create beans of the classes with default bean name as the class name(1st letter small)
+
+@Component @Controller @Service @Repository
+
+We can give explicit name also @Component("employee")
+
 
 
 
