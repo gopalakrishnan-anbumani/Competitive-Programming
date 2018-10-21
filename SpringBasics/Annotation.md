@@ -63,7 +63,43 @@ Spring Container scans the base package (including sub-packages) to detect @Comp
 We can give explicit name also @Component("employee")
 
 
+## Java Based Configurations
 
+Annotation based configuration needs XML file existence to enable auto scanning feature.
+We can eliminate XML file completely and provide the same configuration in Java Class File
+
+Config in XML file and Java file can co-exist as well.
+In Java Based Configurations,We need to use @Component and @Bean annotation in the Java class to provide bean definitions
+
+**@Configurations**
+	this annotation tells the spring container that the class contains the definition of spring beans.
+	
+**@Bean**
+	This annotations is used to define a bean in Java Based configuration
+	
+Spring executes the @Bean method and registers the object returned.
+By default the name of the method is used as the bean name.
+
+@Bean("yourBeanId")
+@Scope("prototype")
+
+For Java Based Config,
+	use 
+	/** The ApplicationContext instantiation */
+	ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
+	
+Following are some of the advantages of Java based configuration
+
+	Compile time check
+	Helps in easy refactoring the code
+	Automate testing is simpler
+	No need of XML parser
+
+To Enable Component Auto Scan
+@ComponentScan("com.infosys.demo")
+
+
+   
 
 
 
